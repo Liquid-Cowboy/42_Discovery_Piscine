@@ -1,0 +1,31 @@
+label {
+    display: block;
+    margin: auto;
+    width: 50vw;
+    font-size: 40px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+select {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width: 50vw;
+    height: 50px;
+    background-color: rgb(44, 45, 109);   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: white;
+}
+body {
+    background-color:  rgb(89, 90, 122);
+}
+h1 {
+    text-align: center;
+    font-size: 120px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+option {
+    background-color: rgb(73, 75, 182); 
+}
