@@ -1,0 +1,18 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: vh100;
+    margin: 0;
+}
+
+button {
+    margin: auto;
+    vertical-align: middle;
+    cursor: pointer;
+}

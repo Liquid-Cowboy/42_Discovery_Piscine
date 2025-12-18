@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <input id="left" type="number">
+        <select id="operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+            <option value="%">%</option>
+        </select>
+        <input id="right" type="number">
+        <button id="submit">Try me!</button>
+        <script>
+            const left_input = document.getElementById('left');
+            const right_input = document.getElementById('right');
+            const operator = document.getElementById('operator');
+            const submit = document.getElementById('submit');
+
+            setInterval(() => {
+                alert('Please, use me...');}, 30000
+            )
+
+            submit.addEventListener('click', () => {
+                const left_numb = Number(left_input.value);
+                const right_numb = Number(right_input.value);
+                const op = operator.value;
+
+                if (!Number.isInteger(left_numb) || !Number.isInteger(right_numb) ||
+                left_numb < 0 || right_numb < 0)
+                {
+                    alert('Error :(');
+                    return;
+                }
+                if ((op === '/' || op === '%') && right_numb === 0)
+                {
+                    alert('It\'s over 9000!');
+                    console.log('It\'s over 9000!');
+                    return;
+                }
+                
+                let result;
+
+                switch (op) {
+                    case '+':
+                        result = left_numb + right_numb;
+                        break;
+                    case '-':
+                        result = left_numb - right_numb;
+                        break;
+                    case '*':
+                        result = left_numb * right_numb;
+                        break;
+                    case '/':
+                        result = left_numb / right_numb;
+                        break;
+                    case '%':
+                        result = left_numb % right_numb;
+                        break;
+                }
+
+                alert (result);
+                console.log(result);
+            });
+        </script>
+    </body>
+</html>
