@@ -8,7 +8,7 @@
   >
 </p>
 <br>
-<p>The <strong> Discovery Piscine</strong> is a 5-day web development bootcamp covering:</p>
+<p>The <strong> Discovery Piscine</strong> is a 5 day web development bootcamp covering:</p>
 <table align="center">
   <tr>
     <td align="center">
