@@ -33,7 +33,6 @@
 From <b>15/12/2025</b> to <b>19/12/2025</b>, students enrolled in this bootcamp were introduced to a total of <b>22 subjects</b> covering the cornerstones of web development. On the final day of the bootcamp, students worked in pairs on the last of these subjects, which consisted of building an <b>online CV</b> - giving the knowledge acquired over the previous four days a practical and meaningful application.
 <br>
 <br>
-<br>
 
 <details> <summary>
   
@@ -41,7 +40,7 @@ From <b>15/12/2025</b> to <b>19/12/2025</b>, students enrolled in this bootcamp 
   
   </summary>
 
-<br>
+
 
 - <b>Day 1 - <i>Shell scripting</i></b><br>
 How to navigate the terminal and automate tasks.<br><br>
@@ -57,6 +56,7 @@ Configuring an interactive display with functions, event listeners and DOM manip
 
 - <b>Day 5 - <i>(Rush) Building a CV</i></b><br>
 Using Bootstrap and the discovery piscine toolkit to build a functional online CV.
+<br>
 </details>
 
 ## 🚀 Key Takeaways
